@@ -1,0 +1,16 @@
+{
+  "name": "jump-to-infinity",
+  "productName": "Jump to Infinity",
+  "version": "1.0.0",
+  "description": "platformer desktop app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds"
+  },
+  "author": "Leif Anderson",
+  "devDependencies": {
+    "electron": "^16.0.3",
+    "electron-packager": "^15.4.0"
+  }
+}
